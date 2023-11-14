@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@500&display=swap');
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #000;
+}
+.container{
+    position: relative;
+    max-width: 100%;
+    min-height: 100%;
+}
+#form-box{
+    width: 45%;
+    background-color: #242424;
+    margin: auto;
+    margin-top: 20%;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+}
+.row-input{
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.row-input input[type=text], .row-input input[type=password]{
+    width: 100%;
+    height: 2em;
+    font-family: 'Raleway';
+    border: none;
+}
+.row-input input[type=text]:focus, .row-input input[type=password]:focus{
+    outline: none;
+}
+.row-input input[type=submit]{
+    width: 20%;
+    font-family: 'Raleway';
+    background: transparent;
+    border: 2px solid #22009b;
+    color: #22009b;
+    font-size: 1.05em;
+}
+.row-input input[type=submit]:hover{
+    background: #22009b;
+    color: #fff;
+    transition-duration: .4s;
+}
